@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:  sans-serif;
+}
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.content__playstation{
+    background:  url('https://cdn.vox-cdn.com/thumbor/1xxlWCr_FxNKtWpSak5IS7wNW54=/0x0:1076x599/1400x1050/filters:focal(538x300:539x301)/cdn.vox-cdn.com/uploads/chorus_asset/file/20030737/xWZMNYm.png') ;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    width: 50%;
+    height: 100vh;
+    transition: 0.9s ease all;
+}
+.content__playstation:hover{
+    width: 75%;
+    transition: 0.9s ease all;
+}
+.content__xbox{
+    background:  url('https://media.wired.com/photos/5fa5dc3dba670daaf8e97a8d/master/pass/games_gear_series-x.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    height: 100vh;
+    transition: 0.9s ease all;
+    width: 50%;
+}
+.content__xbox:hover{
+    width: 75%;
+    transition: 0.9s ease all;
+}
+.playstation__name{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fefefe;
+    text-shadow: 0 0 30px #333;
+}
+.xbox__name{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fefefe;
+    text-shadow: 0 0 30px #333;
+}
+.playstation__link{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #fefefe;
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid #fefefe;
+    width: 100px;
+    border-radius: 10px;
+    transition: .5s ease all;
+    padding: 10px 20px;
+}
+.playstation__link:hover{
+    background-color: #fefefe;
+    color: #333;
+    transition: .5s ease all;
+}
+.xbox__link{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #fefefe;
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid #fefefe;
+    width: 100px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: .5s ease all;
+}
+.xbox__link:hover{
+    background-color: #fefefe;
+    color: #333;
+    transition: .5s ease all;
+}
