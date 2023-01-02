@@ -73,6 +73,11 @@ body{
     color: #333;
     transition: .5s ease all;
 }
+.playstation__link:active{
+    color: red;
+    background: none;
+    border: 2px solid red;
+}
 .xbox__link{
     display: block;
     margin: 0 auto;
@@ -92,4 +97,9 @@ body{
     background-color: #fefefe;
     color: #333;
     transition: .5s ease all;
+}
+.xbox__link:active{
+    color: red;
+    background: none;
+    border: 2px solid red;
 }
